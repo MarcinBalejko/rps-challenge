@@ -3,7 +3,7 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-Capybara.app = Battle
+Capybara.app = Rps
 require 'features/web_helpers'
 require 'simplecov'
 SimpleCov.start
