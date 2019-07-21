@@ -1,0 +1,30 @@
+
+
+#main-header{
+    color:rgb(28, 151, 55);
+    text-align:center;
+    padding:10px;
+}
+
+.container-1{
+    display:flex;
+    text-align:center;
+
+}
+
+.container-1{
+    border: 1px solid;
+    padding:10px;
+}
+
+.box-1{
+    flex:1;
+}
+
+.box-2{
+    flex:1;
+}
+
+.box-3{
+    flex:1;
+}
