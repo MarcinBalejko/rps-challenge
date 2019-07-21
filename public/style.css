@@ -40,3 +40,42 @@
     flex:1;
 }
 
+#play-header{
+    color:rgb(28, 151, 55);
+    text-align:center;
+    padding:25px;
+}
+
+.pcontainer-1{
+    text-align:center;
+}
+
+.pcontainer-2{
+    display:flex;    
+}
+
+.pcontainer-2{
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.pbox-2{
+    flex:1;
+    
+    
+}
+
+.pbox-3{
+    flex:1;
+    
+}
+
+.pbox4{
+    flex:1;
+}
+
+.pcontainer-3{
+    padding:50px;
+    text-align:center;
+}
+
