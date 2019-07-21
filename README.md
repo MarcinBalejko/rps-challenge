@@ -9,14 +9,13 @@ Tools and technologies used to create the game:
 * HTML / CSS
 * Bootswatch
 * RSpec & Capybara for testing
-* Rubocop
 
 Aiming for:
 
 * Complete TDD process ✔
 * 100% test coverage ✔
-* No offences from rubocop ✔
 * Cool user interface ✔
+
 -----
 Task (please read for general rules and challenge details)
 -----
