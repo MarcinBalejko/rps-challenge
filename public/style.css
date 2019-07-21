@@ -43,7 +43,7 @@
 #play-header{
     color:rgb(28, 151, 55);
     text-align:center;
-    padding:25px;
+    padding:15px;
 }
 
 .pcontainer-1{
@@ -75,7 +75,26 @@
 }
 
 .pcontainer-3{
-    padding:50px;
+    padding:30px;
     text-align:center;
 }
 
+#header-2{
+    color:rgb(28, 151, 55);
+    text-align:center;
+    margin-top: 20px;
+    padding:1px;
+}
+
+#header-2{
+    font-size:25px;
+}
+
+.custom-select{
+    color:rgb(28, 151, 55) !important;
+    
+}
+
+select:hover {
+    background:rgb(217, 223, 231);   
+}
