@@ -3,7 +3,12 @@
 #main-header{
     color:rgb(28, 151, 55);
     text-align:center;
-    padding:10px;
+    padding:50px;
+    
+}
+
+#main-header h1{
+    font-size: 50px;  
 }
 
 .container-1{
