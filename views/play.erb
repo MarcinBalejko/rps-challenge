@@ -6,39 +6,29 @@
   <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
 </head>
 <body>
-  <header id="play-header">
-  <h1>Let's begin, <%= $game.players.name %>! </h1>
+  <header>
   </header>
-  <div class="pcontainer-1">
-      <div class="pbox-1">
-          <img src="images/rock.jpg" width="200">
-      </div>
-    </div>
-    <div class="pcontainer-2">
-      <div class="pbox-2">
+  <div class="grid-container">
+      <div></div>
+      <div class="play-header">Let's begin, <%=$game.players.name%>!</div>
+      <div></div>
+        <div></div>
+        <div class="pbox-1">
+            <img src="images/rock.jpg" width="200">
+        </div>
+        <div></div>
+        <div class="pbox-2">
             <img src="images/paper.jpg" width="200"> 
         </div>
         <div class="pbox-3">
-                <img src="images/questionmark.jpg" width="200"> 
-            </div>
+            <img src="images/questionmark.jpg" width="200"> 
+        </div>
         <div class="pbox-4">
             <img src="images/scissors.jpg" width="200">
         </div>
-    </div>
-    <div id="header-2">
-        What is your choice?
-    </div>
-    <div class="pcontainer-3">
-        <div>
-            <div class="form-group">
-                <select class="custom-select">
-                    <option selected="">Open this select menu</option>
-                    <option value="1">Rock</option>
-                    <option value="2">Paper</option>
-                    <option value="3">Scissors</option>
-                </select>
-            </div> 
-        </div>
-    </div>
+        <div></div>
+        <div class="choice">What is your choice?</div>
+        <div></div>
+  </div>
 </body>
 </html>
