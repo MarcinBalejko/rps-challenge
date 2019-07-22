@@ -66,3 +66,29 @@
     font-size: 30px;
   }
 
+  .grid-results{
+    display: grid;
+    margin-top: 25px;
+    margin-left: 28%;
+    margin-right: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr ;
+    grid-template-areas: ". . ." ". . ." ". . ." ;
+  }
+
+  .results-header{
+    color:rgb(28, 151, 55);
+    text-align:center;
+    margin-right: 75px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .results-win-lose{
+    color:rgb(28, 151, 55);
+    text-align:center;
+    margin-right: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
