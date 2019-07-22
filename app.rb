@@ -20,6 +20,7 @@ class Rps < Sinatra::Base
     end
 
     post '/choice' do
+        @choice = params[:name]
         redirect '/results'
     end
 
