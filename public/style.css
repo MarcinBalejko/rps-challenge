@@ -40,6 +40,10 @@
     flex:1;
 }
 
+.placeholder-text{
+    text-align:center;
+}
+
 .play-header{
     color:rgb(28, 151, 55);
     text-align:center;
@@ -91,4 +95,6 @@
     margin-left: 20px;
     font-size: 25px;
   }
+
+  
 
