@@ -6,22 +6,22 @@
    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
 </head>
 <body>
-  <header>
-  </header>
   <div class="grid-container">
       <div></div>
-      <div class="play-header">Let's begin, <%= $game.players.name %>!</div>
+      <div class="play-header">Let's begin, <%= $game.player_1.name %>!</div>
       <div></div>
         <div></div>
         <div class="pbox-1">
         <form action=/choice method="post">
-          <input type="image" src="images/rock.jpg" width="200" name="rock" value="Submit" />
+          <input type="image" src="images/rock.jpg" width="200" name="rock" />
+          <input type="hidden" name="choice" value="rock" />
         </form>
         </div>
         <div></div>
         <div class="pbox-2">
         <form action=/choice method="post">
-          <input type="image" src="images/paper.jpg" width="200" name="paper" value="Submit" />
+          <input type="image" src="images/paper.jpg" width="200" name="paper" />
+          <input type="hidden" name="choice" value="paper" />
         </form>
         </div>
         <div class="pbox-3">
@@ -29,7 +29,8 @@
         </div>
         <div class="pbox-4">
         <form action=/choice method="post">
-          <input type="image" src="images/scissors.jpg" width="200" name="scissors" value="Submit" />
+          <input type="image" src="images/scissors.jpg" width="200" name="scissors" />
+          <input type="hidden" name="choice" value="scissors" />
         </form>
         </div>
         <div></div>
