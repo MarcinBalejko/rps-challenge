@@ -35,7 +35,28 @@
     </div>
 
     <div></div>
-    <div class="results-win-lose">You win\\\lose</div>
+
+    <div class="results-win-lose">
+      <%if $game.player_1.choice == "rock" && $game.selector_result == "rock" %>
+        We have a draw!
+      <%elsif $game.player_1.choice == "rock" && $game.selector_result == "paper" %>
+        You lost, <%= $game.player_1.name %> ...
+      <%elsif $game.player_1.choice == "rock" && $game.selector_result == "scissors" %>
+        You won, <%= $game.player_1.name %>!
+      <%elsif $game.player_1.choice == "paper" && $game.selector_result == "paper" %>
+        We have a draw!
+      <%elsif $game.player_1.choice == "paper" && $game.selector_result == "scissors" %>
+        You lost, <%= $game.player_1.name %> ...
+      <%elsif $game.player_1.choice == "paper" && $game.selector_result == "rock" %>
+        You won, <%= $game.player_1.name %>!
+      <%elsif $game.player_1.choice == "scissors" && $game.selector_result == "scissors" %>
+        We have a draw!
+      <%elsif $game.player_1.choice == "scissors" && $game.selector_result == "rock" %>
+        You lost, <%= $game.player_1.name %> ...
+      <%elsif $game.player_1.choice == "scissors" && $game.selector_result == "paper" %>
+        You won, <%= $game.player_1.name %>!
+      <%end%>
+    </div>
     <div></div>
     </div>
 </body>
