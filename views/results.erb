@@ -13,16 +13,27 @@
     <div class="results-header">Results</div>
     <div></div>
     <div>
-    <%if $game.player_1.choice == "rock"%>
-    <img src="images/rock.jpg">
-    <%elsif $game.player_1.choice == "paper"%>
-    <img src="images/paper.jpg">
-    <%elsif $game.player_1.choice == "scissors"%>
-    <img src="images/scissors.jpg">
-    <%end%> 
+      <%if $game.player_1.choice == "rock"%>
+      <img src="images/rock.jpg">
+      <%elsif $game.player_1.choice == "paper"%>
+      <img src="images/paper.jpg">
+      <%elsif $game.player_1.choice == "scissors"%>
+      <img src="images/scissors.jpg">
+      <%end%> 
     </div>
     <div><img src="images/versus.jpg"></div>
-    <div><img src="images/scissors.jpg"></div>
+
+    <div>
+      <% $game.selector%>
+      <%if $game.selector_result == "rock"%>
+      <img src="images/rock.jpg">
+      <%elsif $game.selector_result == "paper"%>
+      <img src="images/paper.jpg">
+      <%elsif $game.selector_result == "scissors"%>
+      <img src="images/scissors.jpg">
+      <%end%>
+    </div>
+
     <div></div>
     <div class="results-win-lose">You win\\\lose</div>
     <div></div>
