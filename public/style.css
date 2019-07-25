@@ -124,11 +124,11 @@
     margin-top: 15px;
   }
 
-  @media(min-width: 640px) {
+  @media(min-width: 320px) {
       @media (max-width: 812px) {
           .grid-container {
-              display:flex;
-              flex-direction:column;
+              display: flex;
+              flex-direction: column;
           }
 
           .pbox-1{
