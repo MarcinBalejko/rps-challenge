@@ -1,48 +1,48 @@
 
 
-#main-header{
+#main-header {
     color:rgb(28, 151, 55);
     text-align:center;
     padding:50px;   
 }
 
-#main-header h1{
+#main-header h1 {
     font-size: 50px;  
 }
 
-.container-1{
+.container-1 {
     display:flex;
     text-align:center;
 }
 
-.container-1{
+.container-1 {
     border: 1px solid;
     padding:10px;
 }
 
-.container-2{
+.container-2 {
     padding:50px;
     text-align:center;
 }
 
 
-.box-1{
+.box-1 {
     flex:1;
 }
 
-.box-2{
+.box-2 {
     flex:1;
 }
 
-.box-3{
+.box-3 {
     flex:1;
 }
 
-.placeholder-text{
+.placeholder-text {
     text-align:center;
 }
 
-.play-header{
+.play-header {
     color:rgb(28, 151, 55);
     text-align:center;
     margin-top:30px;
@@ -50,19 +50,19 @@
     font-size: 30px;
 }
 
-.pbox-1{
+.pbox-1 {
     text-align: center;
 }
 
-.pbox-2{
+.pbox-2 {
     text-align: right;
 }
 
-.pbox-3{
+.pbox-3 {
     text-align: center;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr  ;
@@ -79,7 +79,7 @@
     font-size: 30px;
   }
 
-  .grid-results{
+  .grid-results {
     display: grid;
     margin-top: 25px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -87,7 +87,7 @@
     grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
   }
 
-  .results-header{
+  .results-header {
     color:rgb(28, 151, 55);
     text-align:center;
     margin-top: 25px;
@@ -95,55 +95,56 @@
     font-size: 25px;
   }
 
-  .results-win-lose{
+  .results-win-lose {
     color:rgb(28, 151, 55);
     text-align:center;
     margin-top: 30px;
     font-size: 20px;
   }
 
-  .rbox-1{
+  .rbox-1 {
       
       text-align: right;
   }
 
-  .rbox-2{
+  .rbox-2 {
       text-align: center;
   }
 
-  .rbox-3{
+  .rbox-3 {
       text-align: left;
   }
 
-  #try_again_btn{
+  #try_again_btn {
     text-align:center;
     margin-top: 25px;
+    margin-bottom: 10px;
   }
 
-  #progress-play{
+  #progress-play {
     margin-top: 15px;
   }
 
   @media screen and (max-width: 640px){
 
-    .container-1{
+    .container-1 {
         object-fit:cover;
         
     }
 
-    .box-1 img{
+    .box-1 img {
         flex:1;
         max-width: 100px;
         max-height: 100px;
     }
     
-    .box-2 img{
+    .box-2 img {
         flex:1;
         max-width: 100px;
         max-height: 100px;
     }
     
-    .box-3 img{
+    .box-3 img {
         flex:1;
         max-width: 100px;
         max-height: 100px;   
@@ -159,19 +160,19 @@
             flex-direction: column;
         }
 
-        .pbox-1{
+        .pbox-1 {
             text-align: center;
         }
         
-        .pbox-2{
+        .pbox-2 {
             text-align: center;
         }
         
-        .pbox-3{
+        .pbox-3 {
             text-align: center;
         }
 
-        .pbox-4{
+        .pbox-4 {
             text-align: center;
         }
     }
@@ -187,15 +188,15 @@
             grid-template-areas: ". . ." ". . ." ". . ." ;
         }
 
-        .pbox-1{
+        .pbox-1 {
             text-align: center;
         }
         
-        .pbox-2{
+        .pbox-2 {
             text-align: right;
         }
         
-        .pbox-3{
+        .pbox-3 {
             text-align: center;
         }
     }
@@ -208,19 +209,19 @@
             flex-direction: column;
         }
 
-        .rbox-1{
+        .rbox-1 {
             text-align: center;
         }
         
-        .rbox-2{
+        .rbox-2 {
             text-align: center;
         }
         
-        .rbox-3{
+        .rbox-3 {
             text-align: center;
         }
 
-        .rbox-4{
+        .rbox-4 {
             text-align: center;
         }
     }
@@ -237,15 +238,15 @@
             grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
         }
 
-        .rbox-1{
+        .rbox-1 {
             text-align: right;
         }
           
-        .rbox-2{
+        .rbox-2 {
             text-align: center;
         }
         
-        .rbox-3{
+        .rbox-3 {
             text-align: left;
         }
     }
