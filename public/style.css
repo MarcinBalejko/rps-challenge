@@ -3,8 +3,7 @@
 #main-header{
     color:rgb(28, 151, 55);
     text-align:center;
-    padding:50px;
-    
+    padding:50px;   
 }
 
 #main-header h1{
@@ -14,7 +13,6 @@
 .container-1{
     display:flex;
     text-align:center;
-
 }
 
 .container-1{
@@ -58,12 +56,10 @@
 
 .pbox-2{
     text-align: right;
-
 }
 
 .pbox-3{
     text-align: center;
-
 }
 
 .grid-container{

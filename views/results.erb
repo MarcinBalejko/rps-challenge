@@ -2,13 +2,11 @@
 <html>
 <head>
   <title>Results</title>
-
   <meta charset="UTF-8">
   <meta name="description" content="Rock Paper Scissors Game">
   <meta name="keywords" content="HTML,CSS,Ruby,Sinatra,Web Game">
-  <meta name="author" content="Marcin B.">
+  <meta name="author" content="Marcin Balejko">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" >
    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
 </head>
@@ -29,7 +27,6 @@
       <%end%> 
     </div>
     <div class="rbox-2"><img src="images/versus.jpg"></div>
-
     <div class="rbox-3">
       <% $game.selector%>
       <%if $game.selector_result == "rock"%>
@@ -40,9 +37,7 @@
       <img src="images/scissors.jpg">
       <%end%>
     </div>
-
     <div></div>
-
     <div class="results-win-lose">
       <%if $game.player_1.choice == "rock" && $game.selector_result == "rock" %>
         We have a draw!
