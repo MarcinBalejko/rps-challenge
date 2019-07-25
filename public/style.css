@@ -124,55 +124,132 @@
     margin-top: 15px;
   }
 
-  @media(min-width: 320px) {
-      @media (max-width: 812px) {
-          .grid-container {
-              display: flex;
-              flex-direction: column;
-          }
+  @media screen and (max-width: 640px){
 
-          .pbox-1{
-              text-align: center;
-          }
+    .container-1{
+        object-fit:cover;
+        
+    }
 
-          .pbox-2{
-              text-align: center;
-          }
+    .box-1 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
+    .box-2 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
+    .box-3 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px;   
+    }
 
-          .pbox-3{
-              text-align: center;
-          }
-
-          .pbox-4{
-              text-align:center
-          }
-      }
   }
 
-  @media(min-width: 320px) {
-      @media (max-width: 812px) {
-          .grid-results {
-              display: flex;
-              flex-direction: column;
-          }
+   /* Mobile - view - play */
+@media(min-width: 320px) {
+    @media (max-width: 736px) {
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+        }
 
-          .rbox-1{
-              text-align: center;
-          }
+        .pbox-1{
+            text-align: center;
+        }
+        
+        .pbox-2{
+            text-align: center;
+        }
+        
+        .pbox-3{
+            text-align: center;
+        }
 
-          .rbox-2{
-              text-align: center;
-          }
+        .pbox-4{
+            text-align: center;
+        }
+    }
+}
 
-          .rbox-3{
-              text-align: center;
-          }
+ /* Ipad - view - play */
+@media(min-width: 737px) {
+    @media (max-width: 1366px) {
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr  ;
+            grid-template-areas: ". . ." ". . ." ". . ." ;
+        }
 
-          .rbox-4{
-              text-align: center;
-          }
-      }
-  }
+        .pbox-1{
+            text-align: center;
+        }
+        
+        .pbox-2{
+            text-align: right;
+        }
+        
+        .pbox-3{
+            text-align: center;
+        }
+    }
+}
+ /* Mobile - view - result */
+@media(min-width: 320px) {
+    @media (max-width: 812px) {
+        .grid-results {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rbox-1{
+            text-align: center;
+        }
+        
+        .rbox-2{
+            text-align: center;
+        }
+        
+        .rbox-3{
+            text-align: center;
+        }
+
+        .rbox-4{
+            text-align: center;
+        }
+    }
+}
+/* Ipad - view - result */
+@media(min-width: 737px) {
+    @media (max-width: 1366px) {
+        .grid-results{
+            display: grid;
+            margin-top: 25px;
+        
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr 1fr  ;
+            grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
+        }
+
+        .rbox-1{
+            text-align: right;
+        }
+          
+        .rbox-2{
+            text-align: center;
+        }
+        
+        .rbox-3{
+            text-align: left;
+        }
+    }
+}
 
 
 
