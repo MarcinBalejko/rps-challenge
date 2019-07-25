@@ -12,3 +12,11 @@ feature 'Saves selected option' do
         expect(page).to have_css("img[src*='images/paper.jpg']")
     end
 end
+feature 'Player can win' do
+    scenario 'Player\'s choice beats computer\'s ' do
+        sign_in_and_play
+        click_button('paper')
+        allow_any_instance_of(Game).to receive(:selector).and_return(:rock)
+        expect(page).to have_content 'You won, Marcin!'
+    end
+end

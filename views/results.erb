@@ -12,7 +12,7 @@
     <div></div>
     <div class="results-header">Results</div>
     <div></div>
-    <div>
+    <div class="rbox-1">
       <%if $game.player_1.choice == "rock"%>
       <img src="images/rock.jpg">
       <%elsif $game.player_1.choice == "paper"%>
@@ -21,9 +21,9 @@
       <img src="images/scissors.jpg">
       <%end%> 
     </div>
-    <div><img src="images/versus.jpg"></div>
+    <div class="rbox-2"><img src="images/versus.jpg"></div>
 
-    <div>
+    <div class="rbox-3">
       <% $game.selector%>
       <%if $game.selector_result == "rock"%>
       <img src="images/rock.jpg">
@@ -56,8 +56,14 @@
       <%elsif $game.player_1.choice == "scissors" && $game.selector_result == "paper" %>
         You won, <%= $game.player_1.name %>!
       <%end%>
+        <form id="try_again_btn" action='/try_again' method="get">
+        <input class="btn btn-success" type="submit" value="Restart">
+        </form>
     </div>
     <div></div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
 </body>
 </html>
