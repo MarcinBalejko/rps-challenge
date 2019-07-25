@@ -29,5 +29,9 @@ class Rps < Sinatra::Base
         erb :results
     end
 
+    get '/try_again' do
+        redirect '/'
+    end
+
     run! if app_file == $0
 end

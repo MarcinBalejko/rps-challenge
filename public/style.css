@@ -47,24 +47,37 @@
 .play-header{
     color:rgb(28, 151, 55);
     text-align:center;
-    margin-bottom: 20px;
+    margin-top:30px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 
+.pbox-1{
+    text-align: center;
+}
+
+.pbox-2{
+    text-align: right;
+
+}
+
+.pbox-3{
+    text-align: center;
+
+}
 
 .grid-container{
     display: grid;
-    margin-top: 25px;
-    margin-left: 28%;
-    margin-right: 25%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr ;
+    grid-template-rows: auto 1fr 1fr  ;
     grid-template-areas: ". . ." ". . ." ". . ." ;
   }
 
   .choice{
     color:rgb(28, 151, 55);
     text-align:center;
+    align-items: flex-start;
+    height:50%;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -73,27 +86,47 @@
   .grid-results{
     display: grid;
     margin-top: 25px;
-    margin-left: 28%;
-    margin-right: 25%;
+
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr ;
-    grid-template-areas: ". . ." ". . ." ". . ." ;
+    grid-template-rows: auto 1fr 1fr 1fr  ;
+    grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
   }
 
   .results-header{
     color:rgb(28, 151, 55);
     text-align:center;
-    margin-right: 75px;
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
   }
 
   .results-win-lose{
     color:rgb(28, 151, 55);
     text-align:center;
-    margin-right: 70px;
-    margin-left: 20px;
-    font-size: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .rbox-1{
+      
+      text-align: right;
+  }
+
+  .rbox-2{
+      text-align: center;
+  }
+
+  .rbox-3{
+      text-align: left;
+  }
+
+  #try_again_btn{
+    text-align:center;
+    margin-top: 25px;
+  }
+
+  #progress-play{
+    margin-top: 15px;
   }
 
   
