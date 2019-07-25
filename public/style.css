@@ -251,6 +251,32 @@
     }
 }
 
+#rock {
+    animation: fadeIn ease 2s;
+}
+
+#paper {
+    animation: fadeIn ease 4s;
+}
+
+#scissors {
+    animation: fadeIn ease 5s;
+}
+
+#fade-in {
+    animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
 
 
   
