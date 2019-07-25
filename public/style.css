@@ -125,13 +125,36 @@
     margin-top: 15px;
   }
 
-  @media (min-width: 600px) {
+  @media screen and (max-width: 768px) {
+
+    .container-1{
+        object-fit:cover;
+        
+    }
+
+    .box-1 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px;
+        
+    }
+    
+    .box-2 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px;
+        
+    }
+    
+    .box-3 img{
+        flex:1;
+        max-width: 100px;
+        max-height: 100px; 
+    }
 
   }
 
-  @media (max-width: 600px) {
-      
-  }
+  
 
   
 
