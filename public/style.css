@@ -82,7 +82,6 @@
   .grid-results{
     display: grid;
     margin-top: 25px;
-
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr  ;
     grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
@@ -125,34 +124,59 @@
     margin-top: 15px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media(min-width: 640px) {
+      @media (max-width: 812px) {
+          .grid-container {
+              display:flex;
+              flex-direction:column;
+          }
 
-    .container-1{
-        object-fit:cover;
-        
-    }
+          .pbox-1{
+              text-align: center;
+          }
 
-    .box-1 img{
-        flex:1;
-        max-width: 100px;
-        max-height: 100px;
-        
-    }
-    
-    .box-2 img{
-        flex:1;
-        max-width: 100px;
-        max-height: 100px;
-        
-    }
-    
-    .box-3 img{
-        flex:1;
-        max-width: 100px;
-        max-height: 100px; 
-    }
+          .pbox-2{
+              text-align: center;
+          }
 
+          .pbox-3{
+              text-align: center;
+          }
+
+          .pbox-4{
+              text-align:center
+          }
+      }
   }
+
+  @media(min-width: 320px) {
+      @media (max-width: 812px) {
+          .grid-results {
+              display: flex;
+              flex-direction: column;
+          }
+
+          .rbox-1{
+              text-align: center;
+          }
+
+          .rbox-2{
+              text-align: center;
+          }
+
+          .rbox-3{
+              text-align: center;
+          }
+
+          .rbox-4{
+              text-align: center;
+          }
+      }
+  }
+
+
+
+  
 
   
 
