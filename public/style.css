@@ -1,6 +1,9 @@
 
+
+
 #main-header {
-    color:rgb(28, 151, 55);
+    color:black;
+    font-family: "Comic Sans MS";
     text-align:center;
     padding:50px;   
 }
@@ -15,7 +18,7 @@
 }
 
 .container-1 {
-    border: 1px solid;
+    border: 5px solid #555555;
     padding:10px;
 }
 
@@ -24,6 +27,20 @@
     text-align:center;
 }
 
+.placeholder-text{
+    border: 2px solid #555555;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
 
 .box-1 {
     flex:1;
@@ -39,10 +56,16 @@
 
 .placeholder-text {
     text-align:center;
+    
+}
+
+#p_monster {
+    border: 5px solid #555555;
 }
 
 .play-header {
-    color:rgb(28, 151, 55);
+    color:black;
+    font-family: "Comic Sans MS";
     text-align:center;
     animation: fadeIn ease 5s;
     margin-top:30px;
@@ -52,14 +75,17 @@
 
 .pbox-1 {
     text-align: center;
+    animation: fadeIn ease 2s;
 }
 
 .pbox-2 {
     text-align: right;
+    animation: fadeIn ease 4s;
 }
 
-.pbox-3 {
-    text-align: center;
+.pbox-4 {
+    text-align: left;
+    animation: fadeIn ease 4s;
 }
 
 .grid-container {
@@ -70,13 +96,15 @@
   }
 
   .choice{
-    color:rgb(28, 151, 55);
+    color:black;
+    font-family: "Comic Sans MS";
     text-align:center;
     align-items: flex-start;
     height:50%;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 30px;
+    animation: fadeIn ease 5s;
   }
 
   .grid-results {
@@ -88,7 +116,8 @@
   }
 
   .results-header {
-    color:rgb(28, 151, 55);
+    color:black;
+    font-family: "Comic Sans MS";
     text-align:center;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -96,7 +125,8 @@
   }
 
   .results-win-lose {
-    color:rgb(28, 151, 55);
+    color:black;
+    font-family: "Comic Sans MS";
     text-align:center;
     margin-top: 30px;
     font-size: 20px;
@@ -261,9 +291,6 @@
     animation: fadeIn ease 5s;
 }
 
-#phead {
-    animation: fadeIn ease 5s; 
-}
 
 @keyframes fadeIn{
     0% {

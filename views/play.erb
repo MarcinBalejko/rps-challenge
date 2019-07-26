@@ -8,9 +8,10 @@
   <meta name="author" content="Marcin Balejko">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" >
-   <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+   
 </head>
 <body>
+<div id="p_monster">
   <div class="grid-container">
       <div></div>
       <div class="play-header">Let's begin, <%= $game.player_1.name %>!</div>
@@ -36,8 +37,9 @@
           <input type="image" src="images/scissors.jpg" width="200" name="scissors" />
           <input type="hidden" name="choice" value="scissors" />
         </form>
-        </div>
+        </div> <!-- p-monster end -->
         <div></div>
+        </div>
         <div class="choice">What is your choice?</div>
         <div></div>
   </div>
