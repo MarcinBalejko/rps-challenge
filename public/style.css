@@ -177,6 +177,8 @@
  /* Ipad - view - play */
 @media(min-width: 737px) {
     @media (max-width: 1366px) {
+
+
         .grid-container{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -213,6 +215,8 @@
         .rbox-3 {
             text-align: center;
         }
+
+
     }
 }
 /* Ipad - view - result */
