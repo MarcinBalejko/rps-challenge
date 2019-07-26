@@ -44,6 +44,7 @@
 .play-header {
     color:rgb(28, 151, 55);
     text-align:center;
+    animation: fadeIn ease 5s;
     margin-top:30px;
     margin-bottom: 30px;
     font-size: 30px;
@@ -212,10 +213,6 @@
         .rbox-3 {
             text-align: center;
         }
-
-        .rbox-4 {
-            text-align: center;
-        }
     }
 }
 /* Ipad - view - result */
@@ -258,6 +255,10 @@
 
 #fade-in {
     animation: fadeIn ease 5s;
+}
+
+#phead {
+    animation: fadeIn ease 5s; 
 }
 
 @keyframes fadeIn{
