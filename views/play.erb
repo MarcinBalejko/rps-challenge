@@ -11,6 +11,7 @@
    
 </head>
 <body>
+<div id="p_monster">
   <div class="grid-container">
       <div></div>
       <div class="play-header">Let's begin, <%= $game.player_1.name %>!</div>
@@ -18,14 +19,14 @@
         <div></div>
         <div class="pbox-1">
         <form action=/choice method="post">
-          <input type="image" src="images/hand-rock-solid.svg" style="max-width: 130px; max-height: 130px;" name="rock" />
+          <input type="image" src="images/hand-rock-solid.svg" style="max-width: 120px; max-height: 150px;" name="rock" />
           <input type="hidden" name="choice" value="rock" />
         </form>
         </div>
         <div></div>
         <div class="pbox-2">
         <form action=/choice method="post">
-          <input type="image" src="images/hand-paper-solid.svg" style="max-width: 130px; max-height: 130px;" name="paper" />
+          <input type="image" src="images/hand-paper-solid.svg" style="max-width: 150px; max-height: 150px;" name="paper" />
           <input type="hidden" name="choice" value="paper" />
         </form>
         </div>
@@ -33,9 +34,10 @@
         </div>
         <div class="pbox-4">
         <form action=/choice method="post">
-          <input type="image" src="images/hand-peace-solid.svg" style="max-width: 130px; max-height: 130px;" name="scissors" />
+          <input type="image" src="images/hand-peace-solid.svg" style="max-width: 150px; max-height: 150px;" name="scissors" />
           <input type="hidden" name="choice" value="scissors" />
         </form>
+        </div> <!-- p-monster end -->
         <div></div>
         </div>
         <div class="choice">What is your choice?</div>

@@ -64,7 +64,7 @@
     color:black;
     font-family: 'Comic Sans Neue';
     text-align:center;
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 0.5s;
     margin-top:30px;
     margin-bottom: 30px;
     font-size: 30px;
@@ -72,17 +72,17 @@
 
 .pbox-1 {
     text-align: center;
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 1s;
 }
 
 .pbox-2 {
     text-align: right;
-    animation: fadeIn ease 4s;
+    animation: fadeIn ease 1.5s;
 }
 
 .pbox-4 {
     text-align: left;
-    animation: fadeIn ease 4s;
+    animation: fadeIn ease 2s;
 }
 
 .grid-container {
@@ -101,7 +101,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 30px;
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 2s;
   }
 
   .grid-results {
@@ -127,12 +127,12 @@
     text-align:center;
     margin-top: 30px;
     font-size: 20px;
-    animation: fadeIn ease 3s;
+    animation: fadeIn ease 0.5s;
   }
 
   .rbox-1 {
       text-align: right;
-      animation: fadeIn ease 4s;
+      animation: fadeIn ease 1s;
   }
 
   .rbox-2 {
@@ -141,14 +141,14 @@
 
   .rbox-3 {
       text-align: left;
-      animation: fadeIn ease 4s;
+      animation: fadeIn ease 1s;
   }
 
   #try_again_btn {
     text-align:center;
     margin-top: 25px;
     margin-bottom: 10px;
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 2s;
   }
 
   #progress-play {
@@ -308,24 +308,27 @@
 }
 
 #rock {
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 0.5s;
 }
 
 #paper {
-    animation: fadeIn ease 4s;
+    animation: fadeIn ease 1s;
 }
 
 #scissors {
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 1.5s;
 }
 
 #fade-in {
-    animation: fadeIn ease 5s;
+    animation: fadeIn ease 2s;
 }
 
 
 @keyframes fadeIn{
     0% {
+        opacity:0;
+    }
+    85% {
         opacity:0;
     }
     100% {
