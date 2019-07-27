@@ -101,7 +101,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 30px;
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2.5s;
   }
 
   .grid-results {
@@ -121,13 +121,17 @@
     font-size: 25px;
   }
 
+  .r-animated-header{
+    animation: fadeIn ease 0.5s;
+  }
+
   .results-win-lose {
     color:black;
     font-family: 'Comic Sans Neue';
     text-align:center;
     margin-top: 30px;
     font-size: 20px;
-    animation: fadeIn ease 0.5s;
+    animation: fadeIn ease 1.5s;
   }
 
   .rbox-1 {
@@ -320,7 +324,7 @@
 }
 
 #fade-in {
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 0.5s;
 }
 
 
