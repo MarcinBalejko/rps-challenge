@@ -58,11 +58,6 @@
 
 .placeholder-text {
     text-align:center;
-    
-}
-
-#p_monster {
-    border: 5px solid black; 
 }
 
 .play-header {
@@ -351,16 +346,6 @@
       transform: scale(0.001, 0.001);
       opacity: 1;
     }
-  }
-
-  @media(min-width: 320px) {
-    @media (max-width: 568px){
-
-    #p_monster {
-      border: 5px solid black;
-      height: 545px;
-    }
-  }
   }
   
 @font-face {
