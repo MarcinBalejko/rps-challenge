@@ -14,7 +14,13 @@
 <div id="p_monster">
   <div class="grid-container">
       <div></div>
-      <div class="play-header">Let's begin, <%= $game.player_1.name %>!</div>
+      <div class="play-header">
+      <% if $game.player_1.name == "" %>
+      Let's begin, Player!
+      <% else %>
+      Let's begin, <%= $game.player_1.name %>!
+      <%end%>
+      </div>
       <div></div>
         <div></div>
         <div class="pbox-1">
