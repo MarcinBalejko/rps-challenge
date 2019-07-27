@@ -209,6 +209,14 @@
             flex-direction: column;
         }
 
+        html {
+            overflow: hidden;
+        }
+
+        .body{
+            min-height:100%;
+        }
+
         .pbox-1 {
             text-align: center;
         }
@@ -232,6 +240,18 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto 1fr 1fr  ;
             grid-template-areas: ". . ." ". . ." ". . ." ;
+        }
+
+        .body{
+            min-height:100%;
+        }
+
+        html {
+            overflow: hidden;
+        }
+
+        html {
+            overflow: hidden;
         }
 
         .pbox-1 {
