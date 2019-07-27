@@ -352,6 +352,16 @@
       opacity: 1;
     }
   }
+
+  @media(min-width: 320px) {
+    @media (max-width: 568px){
+
+    #p_monster {
+      border: 5px solid black;
+      height: 545px;
+    }
+  }
+  }
   
 @font-face {
     font-family: 'Comic Sans Neue';
