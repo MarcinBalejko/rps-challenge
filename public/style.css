@@ -285,7 +285,6 @@
         .grid-results{
             display: grid;
             margin-top: 25px;
-        
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto 1fr 1fr 1fr  ;
             grid-template-areas: ". . ." ". . ." ". . ." ". . ." ;
