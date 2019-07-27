@@ -1,6 +1,4 @@
 
-
-
 #main-header {
     color:black;
     font-family: 'Comic Sans Neue';
@@ -170,7 +168,7 @@
     }
 
     .start-button{
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .placeholder-text{
@@ -266,8 +264,6 @@
         .rbox-3 {
             text-align: center;
         }
-
-
     }
 }
 /* Ipad - view - result */
