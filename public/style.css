@@ -5,7 +5,7 @@
     color:black;
     font-family: 'Comic Sans Neue';
     text-align:center;
-    padding:50px;   
+    padding:30px;   
 }
 
 #main-header h1 {
@@ -165,7 +165,16 @@
   @media screen and (max-width: 640px){
 
     #main-header {
-        font-family: 'Comic Sans Neue';    
+        font-family: 'Comic Sans Neue';
+        padding: 20px;     
+    }
+
+    .start-button{
+        margin-top: 10px;
+    }
+
+    .placeholder-text{
+        margin-bottom: 15px;
     }
 
     .container-1 {
@@ -195,11 +204,7 @@
 
    /* Mobile - view - play */
 @media(min-width: 320px) {
-    @media (max-width: 736px) {
-
-        #main-header {
-            font-family: 'Comic Sans Neue';    
-        }
+    @media (max-width: 736px){
 
         .grid-container {
             display: flex;
@@ -224,11 +229,6 @@
 @media(min-width: 737px) {
     @media (max-width: 1366px) {
 
-        #main-header {
-            font-family: 'Comic Sans Neue';    
-        }
-
-
         .grid-container{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -249,10 +249,6 @@
  /* Mobile - view - result */
 @media(min-width: 320px) {
     @media (max-width: 812px) {
-
-        #main-header {
-            font-family: 'Comic Sans Neue';    
-        }
 
         .grid-results {
             display: flex;
@@ -277,10 +273,6 @@
 /* Ipad - view - result */
 @media(min-width: 737px) {
     @media (max-width: 1366px) {
-
-        #main-header {
-            font-family: 'Comic Sans Neue';    
-        }
 
         .grid-results{
             display: grid;
