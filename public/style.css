@@ -18,7 +18,7 @@
 }
 
 .container-1 {
-    border: 5px solid #555555;
+    border: 5px solid black;
     padding:10px;
 }
 
@@ -28,17 +28,17 @@
 }
 
 .placeholder-text{
-    border: 2px solid #555555;
+    border: 2px solid black;
 }
 
 .button {
     background-color: white;
     color: black;
-    border: 2px solid #555555;
+    border: 2px solid black;
   }
   
 .button:hover {
-    background-color: #555555;
+    background-color: black;
     color: white;
 }
 
@@ -60,7 +60,7 @@
 }
 
 #p_monster {
-    border: 5px solid #555555;
+    border: 5px solid black;
 }
 
 .play-header {
@@ -160,6 +160,10 @@
 
   @media screen and (max-width: 640px){
 
+    #main-header {
+        font-family: "Comic Sans MS";    
+    }
+
     .container-1 {
         object-fit:cover;
         
@@ -188,6 +192,11 @@
    /* Mobile - view - play */
 @media(min-width: 320px) {
     @media (max-width: 736px) {
+
+        #main-header {
+            font-family: "Comic Sans MS";    
+        }
+
         .grid-container {
             display: flex;
             flex-direction: column;
@@ -211,6 +220,10 @@
 @media(min-width: 737px) {
     @media (max-width: 1366px) {
 
+        #main-header {
+            font-family: "Comic Sans MS";    
+        }
+
 
         .grid-container{
             display: grid;
@@ -232,6 +245,11 @@
  /* Mobile - view - result */
 @media(min-width: 320px) {
     @media (max-width: 812px) {
+
+        #main-header {
+            font-family: "Comic Sans MS";    
+        }
+
         .grid-results {
             display: flex;
             flex-direction: column;
@@ -255,6 +273,11 @@
 /* Ipad - view - result */
 @media(min-width: 737px) {
     @media (max-width: 1366px) {
+
+        #main-header {
+            font-family: "Comic Sans MS";    
+        }
+        
         .grid-results{
             display: grid;
             margin-top: 25px;
