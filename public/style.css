@@ -3,7 +3,7 @@
 
 #main-header {
     color:black;
-    font-family: "Comic Sans MS";
+    font-family: 'Comic Sans Neue';
     text-align:center;
     padding:50px;   
 }
@@ -69,7 +69,7 @@
 
 .play-header {
     color:black;
-    font-family: "Comic Sans MS";
+    font-family: 'Comic Sans Neue';
     text-align:center;
     animation: fadeIn ease 5s;
     margin-top:30px;
@@ -101,7 +101,7 @@
 
   .choice{
     color:black;
-    font-family: "Comic Sans MS";
+    font-family: 'Comic Sans Neue';
     text-align:center;
     align-items: flex-start;
     height:50%;
@@ -121,7 +121,7 @@
 
   .results-header {
     color:black;
-    font-family: "Comic Sans MS";
+    font-family: 'Comic Sans Neue';
     text-align:center;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -130,7 +130,7 @@
 
   .results-win-lose {
     color:black;
-    font-family: "Comic Sans MS";
+    font-family: 'Comic Sans Neue';
     text-align:center;
     margin-top: 30px;
     font-size: 20px;
@@ -165,7 +165,7 @@
   @media screen and (max-width: 640px){
 
     #main-header {
-        font-family: "Comic Sans MS";    
+        font-family: 'Comic Sans Neue';    
     }
 
     .container-1 {
@@ -198,7 +198,7 @@
     @media (max-width: 736px) {
 
         #main-header {
-            font-family: "Comic Sans MS";    
+            font-family: 'Comic Sans Neue';    
         }
 
         .grid-container {
@@ -225,7 +225,7 @@
     @media (max-width: 1366px) {
 
         #main-header {
-            font-family: "Comic Sans MS";    
+            font-family: 'Comic Sans Neue';    
         }
 
 
@@ -251,7 +251,7 @@
     @media (max-width: 812px) {
 
         #main-header {
-            font-family: "Comic Sans MS";    
+            font-family: 'Comic Sans Neue';    
         }
 
         .grid-results {
@@ -279,7 +279,7 @@
     @media (max-width: 1366px) {
 
         #main-header {
-            font-family: "Comic Sans MS";    
+            font-family: 'Comic Sans Neue';    
         }
 
         .grid-results{
@@ -330,6 +330,11 @@
         opacity:1;
     }
 }
+
+@font-face {
+    font-family: 'Comic Sans Neue';
+    src: url("ComicNeue-Angular-Bold.ttf");
+  }
 
 
 
