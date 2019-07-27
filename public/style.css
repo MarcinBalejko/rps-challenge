@@ -62,7 +62,7 @@
 }
 
 #p_monster {
-    border: 5px solid black;
+    border: 5px solid black; height: 95vh;
 }
 
 .play-header {
