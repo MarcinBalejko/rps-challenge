@@ -8,4 +8,7 @@ class Player
     def make_choice(player_choice)
         @choice = player_choice
     end
+    def change_default_name
+        @name = "Unknown Player"
+    end
 end

@@ -8,18 +8,16 @@
   <meta name="author" content="Marcin Balejko">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" >
-   
 </head>
 <body>
 <div id="p_monster">
   <div class="grid-container">
       <div></div>
       <div class="play-header">
-      <% if $game.player_1.name == "" %>
-      Let's begin, Player!
-      <% else %>
-      Let's begin, <%= $game.player_1.name %>!
+      <% if $game.player_1.name == ""%>
+      <% $game.player_1.change_default_name %>
       <%end%>
+      Let's begin, <%= $game.player_1.name %>!
       </div>
       <div></div>
         <div></div>

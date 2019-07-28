@@ -21,9 +21,9 @@ feature 'Player can win' do
     end
 end
 feature 'Player gets random name' do
-    scenario 'Player gets \'Player\' name if no name entered' do
+    scenario 'Player gets \'Unknown Player\' name if no name entered' do
         visit('/')
         click_button 'Start'
-        expect(page).to have_content 'Let\'s begin, Player!'
+        expect(page).to have_content 'Let\'s begin, Unknown Player!'
     end
 end
