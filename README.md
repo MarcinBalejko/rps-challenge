@@ -3,18 +3,38 @@
 **Rock - Paper - Scissors**
 -------
 
-Tools and technologies used to create the game:
+The application has been deployed to heroku. You can find a link to it below:
+
+[Click here to check it out!](https://rpschallenge.herokuapp.com/)
+
+-------
+**Tools and technologies used to create the game:**
 
 * Ruby / Sinatra
 * HTML / CSS
-* Bootswatch
 * RSpec & Capybara for testing
 
 Aiming for:
 
 * Complete TDD process ✔
-* 100% test coverage ✔
 * Cool user interface ✔
+
+-----
+**Screenshots of the application:**
+
+-----
+
+1. Registration UI
+
+![Registration](readme_images/ui.png)
+
+2. Selecting Rock, Paper or Scissors
+
+![Choice](readme_images/user_choice.png)
+
+3. And of course winning!
+
+![Results](readme_images/results.png)
 
 -----
 Task (please read for general rules and challenge details)
