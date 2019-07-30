@@ -32,7 +32,7 @@ Aiming for:
 
 ![Choice](readme_images/user_choice.png)
 
-3. And of course winning!
+3. And the results
 
 ![Results](readme_images/results.png)
 
