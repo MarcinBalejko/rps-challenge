@@ -70,3 +70,12 @@ Please start by
 - Rock beats Scissors
 - Scissors beats Paper
 - Paper beats Rock
+
+## Additionl Sources
+
+The images used in the application were taken from:
+
+https://fontawesome.com/
+
+https://www.onlinewebfonts.com
+
