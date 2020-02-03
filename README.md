@@ -1,6 +1,6 @@
 # RPS Challenge #
 
-**Rock - Paper - Scissors**
+Building 'Rock Paper Scissors' game following strict TDD. 100% test coverage. Application deployed to Heroku. The app uses Ruby, HTML, CSS, Sinatra and Capybara technologies. Solo project.
 -------
 
 The application has been deployed to heroku. You can find a link to it below:
